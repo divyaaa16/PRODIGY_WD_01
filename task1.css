@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color:rgb(140, 84, 192)
+}
+.navbar{
+   background-color: rgba(22, 3, 31, 0.824);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    justify-content: space-evenly;
+    height: 70px;
+   
+}
+.home{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+.cart{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+ border-radius: 100px;
+ border-top-left-radius: 5px;
+border-bottom-left-radius:5px;
+width: 50%;
+}
+.search-icon{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    background-color: brown;
+    width: 10%;
+border-radius: 5px;
+}
+.select{
+width: 15px;
+height: 20px;
+font-size: medium;
+text-decoration: none;
+}
+.search-input
+{
+    width: 100%;
+    font-size: 1rem;
+}
+.search-select{
+    width: 10%;
+    font-size: larger;
+}
+.contact{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+.signin{
+    
+    color: white;
+}
+.hello{
+    font-size: 20px;
+    font-weight: 700;
+}
+.signin{
+    font-size: 15px;
+}
+.navicon{
+    color: whitesmoke;
+    font-size: x-large;
+}
+.menu{
+    height: 525px;
+    width: 225px;
+  display: flex;
+flex-direction: column;
+  align-items: left;
+  justify-content: center;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+    border-radius: 15px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+   
+}
+a{
+    text-decoration: none;
+   font-size: 25px;
+    color: white;
+    margin: 20px;
+   font-weight: 600;
+}
+a:hover{
+    color: rgb(36, 7, 52);
+    
+}
+
+
